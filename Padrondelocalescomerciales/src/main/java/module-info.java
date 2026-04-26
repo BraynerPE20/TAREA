@@ -1,0 +1,10 @@
+module pe.edu.upeu {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires static lombok;
+    requires java.desktop;
+    requires org.kordamp.bootstrapfx.core;
+
+    opens pe.edu.upeu.controller to javafx.fxml;
+    exports pe.edu.upeu;
+}
